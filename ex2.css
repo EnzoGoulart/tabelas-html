@@ -1,0 +1,33 @@
+@charset "UTF-8";
+table{
+    max-width: 900px;
+    min-width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.466);
+}
+*{
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+body{
+    background-image: linear-gradient(to bottom, transparent, rgba(46, 6, 121, 0.479));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+th{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    padding: 4px;
+}
+td{
+    border: 1px solid black;
+}
+.media{
+    color: white;
+    background-color: black;
+}
